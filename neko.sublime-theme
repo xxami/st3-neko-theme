@@ -298,7 +298,7 @@
 
 	{
 		"class": "sheet_container_control",
-		"layer0.tint": [180, 180, 180],
+		"layer0.tint": [49, 0, 43],
 		"layer0.opacity": 1.0
 	},
 
@@ -337,16 +337,16 @@
 	{
 		"class": "label_control",
 		"parents": [{"class": "panel_control"}],
-		"shadow_color": [255, 255, 255, 160],
-		"shadow_offset": [0, 0.5]
+		//"shadow_color": [255, 255, 255, 160],
+		//"shadow_offset": [0, 0.5]
 	},
 	/* button labels */
 	{
 		"class": "label_control",
 		"parents": [{"class": "button_control"}],
 		"color": [70, 70, 70],
-		"shadow_color": [255, 255, 255, 160],
-		"shadow_offset": [0, 0.5]
+		//"shadow_color": [255, 255, 255, 160],
+		//"shadow_offset": [0, 0.5]
 	},
 
 
@@ -393,9 +393,9 @@
 		"class": "label_control",
 		"parents": [{"class": "status_bar"}],
 		"font.size": 10,
-		"color": [73, 64, 85],
-		"shadow_color": [255, 255, 255, 160],
-		"shadow_offset": [0, 0.5]
+		"color": [222, 113, 181],
+		//"shadow_color": [255, 255, 255, 160],
+		//"shadow_offset": [1111, 0.5]
 	},
 
 
@@ -406,7 +406,7 @@
 	/* sidebar container (border) */
 	{
 		"class": "sidebar_container",
-		"layer0.tint": [92, 92, 92],
+		"layer0.tint": [49, 0, 43],
 		"layer0.opacity": 1.0,
 		"layer0.draw_center": false,
 		"layer0.inner_margin": [0, 0, 1, 0],
@@ -416,11 +416,11 @@
 	{
 		"class": "sidebar_tree",
 		"dark_content": false,
-		"row_padding": [12, 4],
+		"row_padding": [12, 3],
 		"indent": 13,
 		"indent_offset": 15,
 		"indent_top_level": false,
-		"layer0.tint": [203, 203, 203],	/* darker gray */
+		"layer0.tint": [49, 0, 43],
 		"layer0.opacity": 1.0
 	},
 	/* sidebar rows */
@@ -436,15 +436,16 @@
 	{
 		"class": "tree_row",
 		"attributes": ["selected"],
-		"layer0.opacity": 1.0
+		"layer0.tint": [153, 0, 105],
+		"layer0.opacity": 1.0,
 	},
 	/* sidebar heading */
 	{
 		"class": "sidebar_heading",
-		"color": [100, 64, 180],
+		"color": [171, 8, 70],
 		"font.bold": true,
-		"shadow_color": [255, 255, 255, 160],
-		"shadow_offset": [0, 0.5]
+		//"shadow_color": [255, 255, 255, 160],
+		//"shadow_offset": [4440, 0.5]
 	},
 	{
 		"class": "sidebar_heading",
@@ -454,40 +455,40 @@
 	{
 		"class": "sidebar_heading",
 		"parents": [{"class": "tree_row", "attributes": ["selected"]}],
-		"color": [80, 80, 80]
+		"color": [222, 113, 181],
 	},
 	/* sidebar entry label */
 	{
 		"class": "sidebar_label",
-		"color": [73, 64, 85],
-		"shadow_color": [255, 255, 255],
-		"shadow_offset": [0, 0.5]
+		"color": [222, 113, 181],
+		//"shadow_color": [255, 255, 255],
+		//"shadow_offset": [44440, 0.5]
 	},
 	{
 		"class": "sidebar_label",
 		"parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-		"color": [100, 40, 140]
+		"color": [222, 113, 181],
 	},
 	{
 		"class": "sidebar_label",
 		"parents": [{"class": "tree_row", "attributes": ["expandable"]}],
 		"settings": ["bold_folder_labels"],
-		"font.bold": true,
-		"color": [100, 64, 180]	/* text is bold, so make the color a bit sublter */
+		"font.bold": false,
+		"color": [222, 113, 181],
 	},
 	{
 		"class": "sidebar_label",
 		"parents": [{"class": "tree_row", "attributes": ["expandable"]}],
 		"settings": ["disable_colored_folder_labels"],
-		"color": [80, 80, 80]
+		"color": [222, 113, 181],
 	},
 	{
 		/* sidebar selected entry label */
 		"class": "sidebar_label",
 		"parents": [{"class": "tree_row", "attributes": ["selected"]}],
-		"color": [90, 64, 100],
-		"shadow_color": [255, 255, 255, 160],
-		"shadow_offset": [0, 0.5]
+		"color": [222, 113, 181],
+		//"shadow_color": [255, 255, 255, 160],
+		//"shadow_offset": [0, 0.5]
 	},
 
 	/* sidebar open files close/dirty */
