@@ -14,7 +14,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#ffffff</string>
+				<string>#FFFFFF</string>
 				<key>caret</key>
 				<string>#495f8e</string>
 				<key>foreground</key>

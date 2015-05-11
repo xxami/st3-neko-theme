@@ -87,18 +87,14 @@
 	/* inactive tab label */
 	{
 		"class": "tab_label",
-		"fg": [80, 70, 90],
-		"shadow_color": [255, 255, 255, 160],
-		"shadow_offset": [0, 0.5]
+		"fg": [250, 120, 232, 255],
 	},
 
 	/* active tab label */
 	{
 		"class": "tab_label",
 		"parents": [{"class": "tab_control", "attributes": ["selected"]}],
-		"shadow_color": [255, 255, 255, 255],
-		"shadow_offset": [0, 0.5],
-		"fg": [73, 64, 85, 255]
+		"fg": [250, 120, 232, 255],
 	},
 
 	/* dirty inactive tab label */
